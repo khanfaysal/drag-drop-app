@@ -4,7 +4,7 @@ body {
 	box-sizing: border-box;
 }
 
-.main-container {
+/* .main-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -14,7 +14,7 @@ body {
 	.main-container {
 		flex-direction: column;
 	}
-}
+} */
 
 .container {
 	width: 40%;
