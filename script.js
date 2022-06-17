@@ -14,19 +14,22 @@ draggables.forEach(draggable => {
         draggable.classList.remove('dragging')
     })
 
+    // drag over
     containers.forEach(container => {
         container.addEventListener('dragover', e => {
             e.preventDefault();
             const afterElement = getDragAfterElement(container, e.clientY)
-            console.log(afterElement);
             const draggable = document.querySelector('.dragging');
-            container.appendChild(draggable)
+            if (afterElement == null) {
+                container.appendChild(draggable)
+            } else {
+                container.insertBefore(draggable, afterElement)
+            }
         })
     })
 })
 
 // drag after element in y axis
-
 function getDragAfterElement(container, y) {
 
     const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')]
