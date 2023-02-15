@@ -9,5 +9,4 @@ This project helps to me understand about browser client height measurement and 
 - loop: forEach
 - others: NEGATIVE_INFINITY
 
-live index file : file:///I:/drag-drop-app/index.html
-<img width="100%" src="https://ibb.co/M9p8hJb"/></a>
+<a href="https://ibb.co/M9p8hJb"><img src="https://i.ibb.co/QXn8cxZ/drag-drop.png" alt="drag-drop" border="0" /></a>
