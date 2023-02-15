@@ -5,23 +5,56 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
+		<script src="script.js" defer></script>
 		<title>D&D</title>
 	</head>
 	<body>
 		<!-- first container div -->
-    <h1 class="heading">Drag and Drop</h1>
-	<div class="main-container">
-    	<div class="container">
-			<p class="draggable" draggable="true">Element 1</p>
-			<p class="draggable" draggable="true">Element 2</p>
-		</div>
 
-		<!-- second container div -->
-		<div class="container">
-			<p class="draggable" draggable="true">Element 3</p>
-			<p class="draggable" draggable="true">Element 4</p>
+		<div class="main-container-wrapper">
+
+			<div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="container">
+					<p class="draggable" draggable="true">Wake up</p>
+					<p class="draggable" draggable="true">Prayer</p>
+					<p class="draggable" draggable="true">Meditation</p>
+					<p class="draggable" draggable="true">Exercise</p>
+					<p class="draggable" draggable="true">Sunbath</p>
+					<p class="draggable" draggable="true">Work</p>
+					<p class="draggable" draggable="true">Family Time</p>
+					<p class="draggable" draggable="true">Rest</p>
+				</div>
+			</div>
+
+			<button class="openbtn" onclick="openNav()">&#9776;</button>
+
+			<div class="container-wrapper">
+				<!-- second container div -->
+				<div class="container">
+					<p class="draggable" draggable="true">Wake up</p>
+					<p class="draggable" draggable="true">Prayer</p>
+					<p class="draggable" draggable="true">Meditation</p>
+					<p class="draggable" draggable="true">Exercise</p>
+					<p class="draggable" draggable="true">Sunbath</p>
+					<p class="draggable" draggable="true">Work</p>
+					<p class="draggable" draggable="true">Family Time</p>
+					<p class="draggable" draggable="true">Rest</p>
+				</div>
+				<!-- second container div -->
+				<div class="container">
+					
+				</div>
+				<!-- second container div -->
+				<div class="container">
+					
+				</div>
+				<!-- second container div -->
+				<div class="container">
+					
+				</div>
+
+			</div>
 		</div>
-    </div>
 	</body>
 </html>
